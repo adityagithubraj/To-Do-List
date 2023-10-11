@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./styles/todo.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1  class="logo"> <a href="./index.html">Todo App</a> </h1>
+            <ul class="nav-links">
+                <li><a href="./index.html">Register</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./todos.html">Todos</a></li>
+            </ul>
+            <div class="toggle-button">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+    <form id="todo-form">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="description" placeholder="Description">
+        <button type="submit">Add Todo</button>
+    </form>
+
+
+    <div id="todo-container"></div>
+
+    
+    <script src="./scripts/todo.js"></script>
+</body>
+</html>
